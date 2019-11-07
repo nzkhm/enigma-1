@@ -13,7 +13,6 @@
                 data-prototype="{{ form_widget(form.selections.vars.prototype)|e }}"
                 data-widget-tags="{{ '<li></li>'|e }}"
                 data-widget-counter="{{ form.selections|length }}">
-                
                 {% for selection in form.selections %}
                     <li>
                         {{ form_errors(selection) }}
